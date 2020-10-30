@@ -68,4 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# ez_contact_book" 
+"# ez_contact_book"
+
+## Deployment URL
+
+http://ez-contactbook-app.surge.sh/
+
+https://github.com/alikamal2381/ez_contact_book.git

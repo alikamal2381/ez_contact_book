@@ -1,12 +1,14 @@
+import { combineReducers } from "redux";
 import counterReducer from "./counter";
 import loggedReducer from "./isLogged";
 import testReducer from "./testReducer";
-import { combineReducers } from "redux";
+import contactReducer from "./contactReducer";
 
-const allReducers = combineReducers({
+const rootReducers = combineReducers({
+  contact: contactReducer,
   counter: counterReducer,
   isLogged: loggedReducer,
   testReducer: testReducer,
 });
 
-export default allReducers;
+export default rootReducers;

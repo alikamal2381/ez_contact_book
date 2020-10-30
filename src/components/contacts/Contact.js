@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Avatar from "react-avatar";
 
 const Contact = () => {
-  const contacts = useSelector((state) => state.contacts);
+  const contacts = useSelector((state) => state.contact.contacts);
   console.log(contacts);
   return (
     <div className="container">

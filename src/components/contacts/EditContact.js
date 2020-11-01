@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { getContact, updateContact } from "../../actions/contactAction";
 import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
-//import { CREATE_CONTACT } from "../../constant/types";
 
 const EditContact = () => {
   let { id } = useParams();
@@ -20,6 +19,8 @@ const EditContact = () => {
       setPhone(contact.phone);
       setEmail(contact.email);
     }
+    //console.log(contact);
+    //console.log(id);
     dispatch(getContact(id));
   }, [contact]);
 

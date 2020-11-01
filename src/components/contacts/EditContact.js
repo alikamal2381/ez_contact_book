@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getContact, updateContact } from "../../actions/contactAction";
-import { v4 as uuidv4 } from "uuid";
 import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
 //import { CREATE_CONTACT } from "../../constant/types";
